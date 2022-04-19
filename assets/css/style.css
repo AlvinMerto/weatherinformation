@@ -1,0 +1,195 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+html {
+	font-size: 36px;
+	font-family: "arial";
+}
+
+h3 {
+	font-size: .49rem;
+	font-weight: normal;
+	letter-spacing: .30px;
+}
+
+h4 {
+	font-size: .4rem;
+	font-weight: normal;
+}
+
+h5 {
+	font-size: .37rem;
+	font-weight: normal;
+}
+
+h6 {
+	font-weight: normal;
+	font-size: .35rem;
+}
+
+body {
+	background: #d6d6d6;
+}
+
+input[type='date'] {
+	width: 100%;
+	padding: 10px;
+	font-family: inherit;
+	margin-top: 5px;
+}
+
+.titlethis {
+	color: #2baeac;
+	margin-bottom: 30px;
+}
+
+.wrapper {
+	width: 70%;
+	margin: 10px auto;
+	padding: 10px;
+}
+
+.leftsidetab {
+	/*width: 70%; #*/
+}
+
+.themain {
+	padding: 30px;
+	box-shadow: 0px 4px 3px #ccc;
+z-index: 10000000;
+position: relative;
+}
+
+.mainhead {
+	background: #f0f0f0;
+}
+
+.rightsidetab {
+	color: #fff;
+	width: 30%;
+	margin: 0px 0px;
+	background: #2baeac;
+	padding: 10px;
+}
+
+.tabs {
+	display: flex;
+}
+
+.rightsidetab h5 {
+
+}
+
+.calendardiv {
+	margin: 15px 0px;
+}
+
+.eldiv {
+	margin-bottom: 20px;
+}
+
+.divdets ol {
+	margin-top: 10px;
+}
+
+.divdets ol a {
+	text-decoration: none;
+}
+
+.divdets ol li{
+font-size: .48rem;
+text-align: right;
+list-style: none;
+padding: 13px 20px;
+margin-top: 1px;
+color: #2baeac;
+cursor: pointer;
+background-color: rgb(43,174,172);
+background: linear-gradient(90deg, rgba(43,174,172,1) 0%, rgba(185,244,244,1) 100%, rgba(43,174,172,1) 100%);
+transition:  background 2s;
+}
+
+.divdets ol li:hover {
+	background: linear-gradient(-90deg, rgba(43,174,172,1) 0%, rgba(185,244,244,1) 100%, rgba(43,174,172,1) 100%);
+	color: #ffffff;	
+}
+
+.white {
+	background: #fff;
+}
+
+.headline {
+	display: flex;
+	justify-content: space-between;
+}
+
+.dateholder { 
+	padding: 10px 40px;
+background: #2baeac;
+color: #fff;
+text-align: center;
+}
+
+.dateholder h4 {
+	font-size: .6rem;
+letter-spacing: 0px;
+}
+
+.dateholder h3 {
+	font-size: 0.8rem;
+	letter-spacing: 0px;
+}
+
+.locationholder {
+	padding: 20px 30px;
+}
+
+.locationholder h2 {
+	color: #2baeac;
+}
+
+.locationholder h3 {
+	color: #2baeac;
+	text-align: right;
+}
+
+.bodyline {
+	margin: 0px 30px;
+	background: #f1eeee;
+	padding: 15px;
+	border-bottom: 1px solid #ccc;
+}
+
+.divcatcher {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 20px;
+	margin-top: 50px;
+}
+
+.divcatcher h2 {
+	font-size: .9rem;
+}
+
+.todayweather {
+	text-align: right;
+}
+
+.blueit {
+	color: #2baeac;
+}
+
+.grayit {
+	color: #aca7a7;
+}
+
+.categs {
+	margin-top: 15px;
+}
+.categs li{
+	color: #2baeac;
+	font-size: .6rem;
+	list-style: none;
+}
